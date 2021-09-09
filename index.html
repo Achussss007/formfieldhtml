@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>form</title>
+
+    <body>
+        <h1>Personal Details</h1>
+        <form id="form">
+            <!--input ype text-->
+            <div class="form-control">
+
+                <label>Your Name</label>
+                <input type="text" id="your name" placeholder="your name">
+            </div>
+            <!--input type radio-->
+            <div class="form-control">
+
+                <label>
+                   Gender
+                </label>
+                <label for="Gender">
+                    <input type="radio"
+                           id="recommed-1"
+                           name="recommed">male</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                           name="recommed">female</input>
+                           </label>
+            </div>
+            <!--input type date-->
+            <div class="form-control">
+                <label>Date of Birth</label>
+                <label for="Date of Birth">
+                    <input type="date" id="birthday" name="birthday">
+                </label>
+            </div>
+            <!--textarea-->
+            <div class="form-control">
+                <label>Address</label>
+                <label for="Address">
+                    <textarea id="Address" name="Address" rows="4" cols="50"></textarea>
+                </label>
+            </div>
+            <!--select-->
+            <div class="form-control">
+                <label>City</label>
+                <label for="city">
+                    <select name="city" id="city">
+                        <option value="kollam">kollam</option>
+                        <option value="kochi">kochi</option>
+                        <option value="kottayam">kottayam</option>
+                        <option value="wayanad">wayanad</option>
+                        <option value="kannur">kannur</option>
+
+
+
+
+
+                    </select>
+                </label>
+            </div>
+            <!--Datalist-->
+            <div class="form-control">
+                <label>country</label>
+                <label for="country">
+                    <input list="country" name="country" id="country">
+                    <datalist id="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Japan">japan</option>
+                        <option value="Australia">Australia</option>
+                        <option value="srilanka">"srilanka"</option>
+                      </datalist>
+                </label>
+            </div>
+            <!--input type checkbox-->
+            <div class="form-control">
+                <label>Expertise
+
+                </label>
+                <label for="Expertise">
+
+                <label for="inp-1">
+                    <input type="checkbox"
+                           name="inp">HTML</input></label>
+                <label for="inp-2">
+                    <input type="checkbox"
+                           name="inp">CSS</input></label>
+                <label for="inp-3">
+                    <input type="checkbox"
+                           name="inp">JAVASCRIPT</input></label>
+                <label for="inp-4">
+                            <input type="checkbox"
+                                   name="inp">jquery</input></label>
+
+
+            </div>
+            <!--multiple select-->
+            <div class="form-control">
+                <label>Group</label>
+                <select name="Group" id="Group" multiple>
+                    <option value="Family">Family</option>
+                    <option value="Friend">Friend</option>
+                    <option value="CO-worker">C0-worker</option>
+                    <option value="Neighbour">Neighbour</option>
+                  </select>
+            </div>
+            <!--button-->
+            <div class="form-control">
+                <button type="save" value="save">
+                    Save
+                </button>
+            </div>
+            <div class="form-control">
+
+                <textarea id="Address" name="Address" rows="4" cols="50"></textarea>
+                </label>
+            </div>
+
+
+        </form>
+    </body>
